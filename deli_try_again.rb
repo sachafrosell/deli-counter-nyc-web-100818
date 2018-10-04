@@ -9,6 +9,7 @@ def line(array)
       current_line += "#{index + 1}. #{name} "
     end
     puts current_line.snip
+  end
 end
 
 line(["marco", "john"])
