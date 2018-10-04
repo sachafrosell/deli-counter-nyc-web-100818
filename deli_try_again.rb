@@ -12,4 +12,4 @@ def line(array)
   end
 end
 
-line(["marco", "john"])
+line([])
