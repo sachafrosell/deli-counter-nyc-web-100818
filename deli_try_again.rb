@@ -13,3 +13,5 @@ def line(array)
 end
 
 line([])
+
+def now_serving
