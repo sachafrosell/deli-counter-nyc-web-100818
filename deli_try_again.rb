@@ -8,7 +8,7 @@ def line(array)
     array.each_with_index do |name, index|
       current_line += "#{index + 1}. #{name} "
     end
-    puts current_line.snip
+    puts current_line.strip
   end
 end
 
